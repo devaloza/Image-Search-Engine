@@ -44,8 +44,8 @@ def weatherReport():
      from_record = request.args.get('page')
     
      es = Elasticsearch(
-            cloud_id='My_deployment:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvJDBhY2NiZDQzNDIwNjQwN2ZhZTM5YWVmMzMwOGQ2NTMzJDY1N2M3YTMwNmJhMDQzM2Q4N2JiOWZkYmI5NTJjNDY4',
-            http_auth=('elastic', '9kDhcs5V3NBkDO0nQNerD9qh')
+            cloud_id='****',
+            http_auth=('****', '****')
         )
      result = es.search(
         index='image_index',
